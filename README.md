@@ -1,3 +1,5 @@
+![Logo do Projeto](https://github.com/SSancaSH-Projetos/IntelliSpace/blob/main/logo%20-%20IntelliSpace.png)
+
 # IntelliSpace
 
 # DevFlow
@@ -196,4 +198,6 @@ Como palestrante, eu quero poder inicializar o projetor e o modo apresentação 
 
 **Comunicação Efetiva com os Usuários:**
 - A inclusão de registros de atividades e relatórios para os usuários, juntamente com uma documentação clara, promoverá a transparência e a compreensão do sistema.
+
+
 
