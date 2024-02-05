@@ -77,34 +77,34 @@ Desenvolver um sistema de automação para o auditório, proporcionando ao pales
 - **Estratégias de Mitigação:** Agendar a implementação durante períodos de menor atividade operacional. Comunicar claramente as interrupções planejadas e preparar soluções alternativas.
 - **Plano de Contingência:** Desenvolver um plano de rollback para reverter temporariamente para processos manuais, se necessário. Garantir uma equipe de suporte pronta para lidar com problemas imprevistos.
 
+
 ## 4. Cronograma
 **Janeiro/2024:** Planejamento e Análise
 - Formação das equipes
-- Processo de empatia
-- Identificação de requisitos detalhados
-- Início do desenvolvimento do escopo do projeto e documentação da ideia inicial
-- Definição do backlog e prioridade das atividades
+- Identificação dos requisitos 
+- Começo da elaboração do escopo do projeto e registro das ideias iniciais.
+- Estabelecimento do backlog e definição da prioridade das tarefas.
 
 **Fevereiro/2024:** Desenvolvimento do MVP (Menor produto viável)
-- Codificação e validação do MVP com o cliente e adaptação dos documentos de escopo (se necessário)
+- Validação do MVP com o cliente e adaptação dos documentos de escopo (se necessário)
+- Construção do MVP conforme validado com o cliente. 
 
-**Março/2024:** Desenvolvimento do protótipo do aplicativo
-- Desenvolvimento das interfaces do usuário, fluxos da aplicação
-- Desenvolvimento dos micro serviços e bancos de dados
+**Março/2024:** Desenvolvimento do primeiro protótipo do sistema
+- Inicio da construção do primeiro protótipo do sistema
 - Revisão e ajuste do protótipo com feedback da equipe e usuários
 
-**Abril/2024:** Implementação do Painel de Supervisão e Integração
+**Abril/2024:** Desenvolvimento do segundo protótipo do sistema
 - Início da integração com sistemas existentes
 - Testes de integração e ajustes necessários
 
 **Maio/2024:** Testes Finais e Lançamento
-- Testes finais do aplicativo e do sistema integrado
-- Treinamento final dos funcionários e supervisores
-- Lançamento oficial do Sistema de Gestão de Limpeza
+- Testes finais do sistema 
+- Lançamento oficial do Sistema de Automação de Ambientes
 - Monitoramento inicial de feedback e desempenho
 
 **Junho/2024:**
 - Apresentação do Projeto
+
 
 ## 5. Recursos
 **Pessoal:**
