@@ -159,8 +159,9 @@ Como um Palestrante, eu quero poder realizar os meus comandos de voz e a minha c
 Como um Palestrante, eu quero ter a opção de poder utilizar tanto o comando de voz quanto por um aplicativo (quando necessário) que exerça a mesma eficiência.
 - **Critérios de Aceitação:** O aplicativo deve ter a mesma facilidade quanto a própria Alexa.
 
-Como usuário, eu quero ter uma segurança de dados eficiente.
-- **Critérios de Aceitação:** Autenticação Segura: Implemente um sistema robusto de autenticação para garantir que apenas usuários autorizados possam acessar o sistema de automação.
+Como um Palestrante eu quero poder escolher o campo aonde desejo ligar a luz por comando de voz ou app.
+- **Critérios de Aceitação:** O sistema deve reconhecer o comando de voz emitido pelo palestrante para ativar a luz no campo selecionado de forma confiável e precisa.
+Além do reconhecimento por comando de voz, o sistema deve oferecer a opção de controle da iluminação através de um aplicativo móvel dedicado, proporcionando uma alternativa conveniente e acessível para o palestrante.
 
 Como palestrante, eu quero poder ligar as luzes e o ar-condicionado do auditório de forma fácil apenas por um comando de voz ou aplicativo.
 - **Critérios de Aceitação:** os componentes precisam ser automatizados de forma com que eles sejam interligados com a alexia.
