@@ -59,21 +59,21 @@ Desenvolver um sistema de automação para o auditório, proporcionando ao pales
   - Estabelecer suporte técnico contínuo e acessível para fornecer assistência imediata diante de desafios ou dúvidas.
   - Disponibilizar recursos de aprendizado online, garantindo uma fonte de informação sempre acessível para os usuários.
 
-- **Risco: Falhas na Rede:**
+**Risco: Falhas na Rede:**
 
 - **Estratégias de Mitigação:**
 Implementar uma rede dedicada exclusivamente para os dispositivos conectados no auditório, proporcionando uma conexão mais estável e reduzindo o risco de falhas.
 - **Plano de Contingência:**
 Manter uma equipe de suporte técnico ativa para resolver prontamente quaisquer problemas que possam surgir na rede, assegurando uma rápida restauração da conectividade.
 
-- **Risco: Problemas de Integração com Sistemas Existentes (mesmo que físicos):**
+**Risco: Problemas de Integração com Sistemas Existentes (mesmo que físicos):**
 - **Estratégias de Mitigação:**
 Realizar uma análise detalhada dos sistemas existentes antes da implementação para identificar possíveis desafios de integração.
 - **Plano de Contingência:**
 - Manter uma equipe de suporte técnico pronta para abordar rapidamente quaisquer problemas de integração que possam surgir durante ou após a implementação.
 - Desenvolver um plano de rollback para restaurar os sistemas anteriores em casos de dificuldades significativas, garantindo a continuidade das operações.
 
-  - **Risco: Integração com Componentes**
+ **Risco: Integração com Componentes**
   - **Estratégias de Mitigação:**
   - Conduzir uma análise minuciosa dos componentes envolvidos no sistema antes da implementação para identificar possíveis desafios de integração.
   - Envolvimento precoce da equipe de desenvolvimento e dos responsáveis pelos componentes para assegurar uma compreensão abrangente e promover uma integração fluida.
