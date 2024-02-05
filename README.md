@@ -169,31 +169,31 @@ Como palestrante, eu quero poder inicializar o projetor e o modo apresentação 
 - **Critérios de Aceitação:** Deve haver uma automatização nesses componentes para que esse comando se realize.
 
 ## 8. Avaliação do Projeto
-**. Taxa de Adoção do Sistema Alexa:
+**Taxa de Adoção do Sistema Alexa:**
    - *Objetivo:* Alcançar uma taxa de adoção de 80% entre os usuários frequentes do sistema Alexa no controle do auditório.
    - *Métrica:* Número total de usuários utilizando o sistema Alexa em comparação com o número total de usuários do auditório.
 
-**. Eficiência Operacional do Controle por Voz:
+**Eficiência Operacional do Controle por Voz:**
    - *Objetivo:* Reduzir o tempo médio gasto na configuração e controle do auditório em pelo menos 20% após a implementação do sistema Alexa.
    - *Métrica:* Comparação do tempo médio de configuração e controle do auditório antes e após a implementação do sistema Alexa.
 
-**. Taxa de Execução de Comandos por Voz:
+**Taxa de Execução de Comandos por Voz:**
    - *Objetivo:* Alcançar uma taxa de execução de comandos por voz de pelo menos 95% durante apresentações e eventos no auditório.
    - *Métrica:* Número de comandos executados corretamente em relação ao número total de comandos dados por voz.
 
-**. Satisfação dos Usuários com a Interação por Voz:
+**Satisfação dos Usuários com a Interação por Voz:**
    - *Objetivo:* Alcançar uma pontuação de satisfação dos usuários de pelo menos 4,5 em 5, com base em pesquisas de satisfação relacionadas à interação por voz com o sistema Alexa.
    - *Métrica:* Resultados de pesquisas de satisfação realizadas com usuários frequentes do auditório.
 
-**. Integridade e Precisão dos Comandos por Voz:
+**Integridade e Precisão dos Comandos por Voz:**
    - *Objetivo:* Alcançar uma precisão de pelo menos 98% na interpretação e execução dos comandos por voz dados ao sistema Alexa.
    - *Métrica:* Comparação entre os comandos dados por voz e as ações executadas no auditório.
 
-**. Disponibilidade do Sistema Alexa no Auditório:
+**Disponibilidade do Sistema Alexa no Auditório:**
    - *Objetivo:* Garantir uma disponibilidade do sistema Alexa no auditório de pelo menos 99,5% ao longo do tempo.
    - *Métrica:* Tempo total de operação sem interrupções do sistema em comparação com o tempo total planejado.
 
-**. Tempo de Implementação da Automatização:
+**Tempo de Implementação da Automatização:**
    - *Objetivo:* Cumprir o cronograma estabelecido, realizando a implementação e integração do sistema Alexa no auditório até a data prevista.
    - *Métrica:* Comparação entre a data de conclusão real da implementação e a data planejada.
 
