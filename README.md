@@ -50,46 +50,24 @@ Desenvolver um sistema de automação para o auditório, proporcionando ao pales
 
 ## 3. Análise de Riscos
 **Risco: Resistência à Adoção do Sistema pelos Funcionários**
+- **Estratégias de Mitigação:** Realizar sessões de treinamento abrangentes para garantir a compreensão e aceitação do novo sistema. Envolva os funcionários desde as fases iniciais do projeto para receber feedback e endereçar preocupações.
+- **Plano de Contingência:** Disponibilizar suporte técnico contínuo e recursos de aprendizado online. Implementar um programa de incentivo para promover a adoção do aplicativo.
 
-- **Estratégias de Mitigação:**
-  - Conduzir sessões de treinamento abrangentes para garantir uma compreensão profunda e aceitação do novo sistema pelos funcionários.
-  - Incluir os funcionários desde as fases iniciais do projeto para garantir uma abordagem colaborativa, permitindo o recebimento contínuo de feedback e a pronta resolução de preocupações.
+**Risco: Falhas na Rede**
+- **Estratégias de Mitigação:** Existir uma internet separada somente para os dispositivos conectados no auditório.
+- **Plano de Contingência:** Suporte Técnico ativo para resolver qualquer problema que a rede venha a ter rapidamente.
 
-- **Plano de Contingência:**
-  - Estabelecer suporte técnico contínuo e acessível para fornecer assistência imediata diante de desafios ou dúvidas.
-  - Disponibilizar recursos de aprendizado online, garantindo uma fonte de informação sempre acessível para os usuários.
-
-**Risco: Falhas na Rede:**
-
-- **Estratégias de Mitigação:**
-Implementar uma rede dedicada exclusivamente para os dispositivos conectados no auditório, proporcionando uma conexão mais estável e reduzindo o risco de falhas.
-- **Plano de Contingência:**
-Manter uma equipe de suporte técnico ativa para resolver prontamente quaisquer problemas que possam surgir na rede, assegurando uma rápida restauração da conectividade.
-
-**Risco: Problemas de Integração com Sistemas Existentes (mesmo que físicos):**
-- **Estratégias de Mitigação:**
-Realizar uma análise detalhada dos sistemas existentes antes da implementação para identificar possíveis desafios de integração.
-- **Plano de Contingência:**
-- Manter uma equipe de suporte técnico pronta para abordar rapidamente quaisquer problemas de integração que possam surgir durante ou após a implementação.
-- Desenvolver um plano de rollback para restaurar os sistemas anteriores em casos de dificuldades significativas, garantindo a continuidade das operações.
-
- **Risco: Integração com Componentes**
-  - **Estratégias de Mitigação:**
-  - Conduzir uma análise minuciosa dos componentes envolvidos no sistema antes da implementação para identificar possíveis desafios de integração.
-  - Envolvimento precoce da equipe de desenvolvimento e dos responsáveis pelos componentes para assegurar uma compreensão abrangente e promover uma integração fluida.
-
-  - **Plano de Contingência:**
-  - Implementar um sistema de monitoramento contínuo durante a fase de integração para identificar rapidamente quaisquer sinais de falhas ou incompatibilidades com componentes
-  - Realizar testes iterativos e incrementais durante o desenvolvimento e a integração para identificar possíveis problemas antes que se tornem críticos.
-  - Manter backups atualizados dos componentes críticos, permitindo uma rápida substituição em caso de falha ou incompatibilidade irreversível.
+**Risco: Problemas de Integração com Sistemas Existentes (mesmo que físicos)**
+- **Estratégias de Mitigação:** Realizar uma análise detalhada dos sistemas existentes antes da implementação. Envolver a equipe de TI desde o início para garantir uma integração suave.
+- **Plano de Contingência:** Manter uma equipe de suporte técnico preparada para lidar rapidamente com problemas de integração. Ter um plano de rollback para restaurar sistemas anteriores, se necessário.
 
 **Risco: Falhas Técnicas no Aplicativo**
-- **Estratégias de Mitigação:** Realizar testes extensivos do aplicativo antes do lançamento, garantindo uma avaliação minuciosa de todas as funcionalidades. 
+- **Estratégias de Mitigação:** Realizar testes rigorosos do aplicativo antes do lançamento. Contratar profissionais de desenvolvimento qualificados e experientes.
 - **Plano de Contingência:** Implementar um sistema de backup que permita a rápida restauração em caso de falhas críticas. Manter uma equipe de suporte técnico disponível para resolver problemas imprevistos.
 
 **Risco: Falta de Envolvimento da Alta Administração**
-- **Estratégias de Mitigação:** Manter atualizações regulares sobre o andamento do projeto à alta administração. Enfatizar os ganhos estratégicos advindos da implementação do sistema de automação ambiental.
-- **Plano de Contingência:** Elaborar um plano de comunicação de crise, delineando a relevância crítica do projeto, especialmente em momentos de resistência ou dúvida por parte da alta administração.
+- **Estratégias de Mitigação:** Apresentar regularmente o progresso do projeto à alta administração. Destacar os benefícios estratégicos do sistema de automação do ambiente.
+- **Plano de Contingência:** Desenvolver um plano de comunicação de crise para explicar a importância do projeto em momentos de resistência ou dúvida da alta administração.
 
 **Risco: Mudanças nos Requisitos durante o Desenvolvimento**
 - **Estratégias de Mitigação:** Realizar uma análise completa dos requisitos antes do início do desenvolvimento. Estabelecer um processo formal para gerenciar alterações nos requisitos.
@@ -181,9 +159,8 @@ Como um Palestrante, eu quero poder realizar os meus comandos de voz e a minha c
 Como um Palestrante, eu quero ter a opção de poder utilizar tanto o comando de voz quanto por um aplicativo (quando necessário) que exerça a mesma eficiência.
 - **Critérios de Aceitação:** O aplicativo deve ter a mesma facilidade quanto a própria Alexa.
 
-Como um Palestrante eu quero poder escolher o campo aonde desejo ligar a luz por comando de voz ou app.
-- **Critérios de Aceitação:** O sistema deve reconhecer o comando de voz emitido pelo palestrante para ativar a luz no campo selecionado de forma confiável e precisa.
-Além do reconhecimento por comando de voz, o sistema deve oferecer a opção de controle da iluminação através de um aplicativo móvel dedicado, proporcionando uma alternativa conveniente e acessível para o palestrante.
+Como usuário, eu quero ter uma segurança de dados eficiente.
+- **Critérios de Aceitação:** Autenticação Segura: Implemente um sistema robusto de autenticação para garantir que apenas usuários autorizados possam acessar o sistema de automação.
 
 Como palestrante, eu quero poder ligar as luzes e o ar-condicionado do auditório de forma fácil apenas por um comando de voz ou aplicativo.
 - **Critérios de Aceitação:** os componentes precisam ser automatizados de forma com que eles sejam interligados com a alexia.
@@ -192,35 +169,32 @@ Como palestrante, eu quero poder inicializar o projetor e o modo apresentação 
 - **Critérios de Aceitação:** Deve haver uma automatização nesses componentes para que esse comando se realize.
 
 ## 8. Avaliação do Projeto
-**Objetivo Claro e Alcançável:**
-- O objetivo de proporcionar automação ao auditório e oferecer controle intuitivo ao palestrante é claro e alcançável com as tecnologias mencionadas.
+**. Taxa de Adoção do Sistema Alexa:
+   - *Objetivo:* Alcançar uma taxa de adoção de 80% entre os usuários frequentes do sistema Alexa no controle do auditório.
+   - *Métrica:* Número total de usuários utilizando o sistema Alexa em comparação com o número total de usuários do auditório.
 
-**Funcionalidades Abrangentes e Relevantes:**
-- As funcionalidades propostas abrangem as necessidades típicas de um auditório, como controle de iluminação, ar condicionado, projetor e computador. São relevantes para otimizar a experiência do usuário.
+**. Eficiência Operacional do Controle por Voz:
+   - *Objetivo:* Reduzir o tempo médio gasto na configuração e controle do auditório em pelo menos 20% após a implementação do sistema Alexa.
+   - *Métrica:* Comparação do tempo médio de configuração e controle do auditório antes e após a implementação do sistema Alexa.
 
-**Integração de Tecnologias Modernas:**
-- A integração com a Alexa e o desenvolvimento de um aplicativo móvel demonstram uma abordagem moderna e alinhada com as tendências tecnológicas atuais.
+**. Taxa de Execução de Comandos por Voz:
+   - *Objetivo:* Alcançar uma taxa de execução de comandos por voz de pelo menos 95% durante apresentações e eventos no auditório.
+   - *Métrica:* Número de comandos executados corretamente em relação ao número total de comandos dados por voz.
 
-**Segurança e Privacidade Consideradas:**
-- A inclusão de medidas de segurança e privacidade é essencial. No entanto, é necessário garantir que essas medidas sejam robustas para proteger contra ameaças potenciais.
+**. Satisfação dos Usuários com a Interação por Voz:
+   - *Objetivo:* Alcançar uma pontuação de satisfação dos usuários de pelo menos 4,5 em 5, com base em pesquisas de satisfação relacionadas à interação por voz com o sistema Alexa.
+   - *Métrica:* Resultados de pesquisas de satisfação realizadas com usuários frequentes do auditório.
 
-**Tecnologias Escolhidas Adequadas:**
-- As tecnologias escolhidas (Alexa Skills Kit) parecem adequadas para o projeto, mas a escolha final dependerá das necessidades específicas e da expertise da equipe de desenvolvimento.
+**. Integridade e Precisão dos Comandos por Voz:
+   - *Objetivo:* Alcançar uma precisão de pelo menos 98% na interpretação e execução dos comandos por voz dados ao sistema Alexa.
+   - *Métrica:* Comparação entre os comandos dados por voz e as ações executadas no auditório.
 
-**Etapas do Projeto Bem Definidas:**
-- As etapas do projeto estão claramente definidas, proporcionando uma estrutura lógica para o desenvolvimento. No entanto, o sucesso dependerá da execução eficiente de cada etapa.
+**. Disponibilidade do Sistema Alexa no Auditório:
+   - *Objetivo:* Garantir uma disponibilidade do sistema Alexa no auditório de pelo menos 99,5% ao longo do tempo.
+   - *Métrica:* Tempo total de operação sem interrupções do sistema em comparação com o tempo total planejado.
 
-**Benefícios Tangíveis para Usuários e Meio Ambiente:**
-- Os benefícios esperados, como facilitar o controle para palestrantes e reduzir o consumo de energia, são tangíveis e alinhados com os objetivos do projeto.
-
-**Considerações Locais e Preferências do Usuário:**
-- É importante considerar as especificidades locais do auditório e as preferências individuais dos usuários para garantir a adaptação eficaz do sistema.
-
-**Desafios Potenciais:**
-- Desafios podem surgir na integração com dispositivos específicos no auditório, na calibração dos sistemas de controle e na personalização para diferentes palestrantes. É crucial identificar e abordar esses desafios durante o desenvolvimento.
-
-**Comunicação Efetiva com os Usuários:**
-- A inclusão de registros de atividades e relatórios para os usuários, juntamente com uma documentação clara, promoverá a transparência e a compreensão do sistema.
-
+**. Tempo de Implementação da Automatização:
+   - *Objetivo:* Cumprir o cronograma estabelecido, realizando a implementação e integração do sistema Alexa no auditório até a data prevista.
+   - *Métrica:* Comparação entre a data de conclusão real da implementação e a data planejada.
 
 
