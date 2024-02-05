@@ -50,46 +50,24 @@ Desenvolver um sistema de automação para o auditório, proporcionando ao pales
 
 ## 3. Análise de Riscos
 **Risco: Resistência à Adoção do Sistema pelos Funcionários**
+- **Estratégias de Mitigação:** Realizar sessões de treinamento abrangentes para garantir a compreensão e aceitação do novo sistema. Envolva os funcionários desde as fases iniciais do projeto para receber feedback e endereçar preocupações.
+- **Plano de Contingência:** Disponibilizar suporte técnico contínuo e recursos de aprendizado online. Implementar um programa de incentivo para promover a adoção do aplicativo.
 
-- **Estratégias de Mitigação:**
-  - Conduzir sessões de treinamento abrangentes para garantir uma compreensão profunda e aceitação do novo sistema pelos funcionários.
-  - Incluir os funcionários desde as fases iniciais do projeto para garantir uma abordagem colaborativa, permitindo o recebimento contínuo de feedback e a pronta resolução de preocupações.
+**Risco: Falhas na Rede**
+- **Estratégias de Mitigação:** Existir uma internet separada somente para os dispositivos conectados no auditório.
+- **Plano de Contingência:** Suporte Técnico ativo para resolver qualquer problema que a rede venha a ter rapidamente.
 
-- **Plano de Contingência:**
-  - Estabelecer suporte técnico contínuo e acessível para fornecer assistência imediata diante de desafios ou dúvidas.
-  - Disponibilizar recursos de aprendizado online, garantindo uma fonte de informação sempre acessível para os usuários.
-
-- **Risco: Falhas na Rede:**
-
-- **Estratégias de Mitigação:**
-Implementar uma rede dedicada exclusivamente para os dispositivos conectados no auditório, proporcionando uma conexão mais estável e reduzindo o risco de falhas.
-- **Plano de Contingência:**
-Manter uma equipe de suporte técnico ativa para resolver prontamente quaisquer problemas que possam surgir na rede, assegurando uma rápida restauração da conectividade.
-
-- **Risco: Problemas de Integração com Sistemas Existentes (mesmo que físicos):**
-- **Estratégias de Mitigação:**
-Realizar uma análise detalhada dos sistemas existentes antes da implementação para identificar possíveis desafios de integração.
-- **Plano de Contingência:**
-- Manter uma equipe de suporte técnico pronta para abordar rapidamente quaisquer problemas de integração que possam surgir durante ou após a implementação.
-- Desenvolver um plano de rollback para restaurar os sistemas anteriores em casos de dificuldades significativas, garantindo a continuidade das operações.
-
-  - **Risco: Integração com Componentes**
-  - **Estratégias de Mitigação:**
-  - Conduzir uma análise minuciosa dos componentes envolvidos no sistema antes da implementação para identificar possíveis desafios de integração.
-  - Envolvimento precoce da equipe de desenvolvimento e dos responsáveis pelos componentes para assegurar uma compreensão abrangente e promover uma integração fluida.
-
-  - **Plano de Contingência:**
-  - Implementar um sistema de monitoramento contínuo durante a fase de integração para identificar rapidamente quaisquer sinais de falhas ou incompatibilidades com componentes
-  - Realizar testes iterativos e incrementais durante o desenvolvimento e a integração para identificar possíveis problemas antes que se tornem críticos.
-  - Manter backups atualizados dos componentes críticos, permitindo uma rápida substituição em caso de falha ou incompatibilidade irreversível.
+**Risco: Problemas de Integração com Sistemas Existentes (mesmo que físicos)**
+- **Estratégias de Mitigação:** Realizar uma análise detalhada dos sistemas existentes antes da implementação. Envolver a equipe de TI desde o início para garantir uma integração suave.
+- **Plano de Contingência:** Manter uma equipe de suporte técnico preparada para lidar rapidamente com problemas de integração. Ter um plano de rollback para restaurar sistemas anteriores, se necessário.
 
 **Risco: Falhas Técnicas no Aplicativo**
-- **Estratégias de Mitigação:** Realizar testes extensivos do aplicativo antes do lançamento, garantindo uma avaliação minuciosa de todas as funcionalidades. 
+- **Estratégias de Mitigação:** Realizar testes rigorosos do aplicativo antes do lançamento. Contratar profissionais de desenvolvimento qualificados e experientes.
 - **Plano de Contingência:** Implementar um sistema de backup que permita a rápida restauração em caso de falhas críticas. Manter uma equipe de suporte técnico disponível para resolver problemas imprevistos.
 
 **Risco: Falta de Envolvimento da Alta Administração**
-- **Estratégias de Mitigação:** Manter atualizações regulares sobre o andamento do projeto à alta administração. Enfatizar os ganhos estratégicos advindos da implementação do sistema de automação ambiental.
-- **Plano de Contingência:** Elaborar um plano de comunicação de crise, delineando a relevância crítica do projeto, especialmente em momentos de resistência ou dúvida por parte da alta administração.
+- **Estratégias de Mitigação:** Apresentar regularmente o progresso do projeto à alta administração. Destacar os benefícios estratégicos do sistema de automação do ambiente.
+- **Plano de Contingência:** Desenvolver um plano de comunicação de crise para explicar a importância do projeto em momentos de resistência ou dúvida da alta administração.
 
 **Risco: Mudanças nos Requisitos durante o Desenvolvimento**
 - **Estratégias de Mitigação:** Realizar uma análise completa dos requisitos antes do início do desenvolvimento. Estabelecer um processo formal para gerenciar alterações nos requisitos.
@@ -102,27 +80,25 @@ Realizar uma análise detalhada dos sistemas existentes antes da implementação
 ## 4. Cronograma
 **Janeiro/2024:** Planejamento e Análise
 - Formação das equipes
-- Processo de empatia
-- Identificação de requisitos detalhados
-- Início do desenvolvimento do escopo do projeto e documentação da ideia inicial
-- Definição do backlog e prioridade das atividades
+- Identificação dos requisitos 
+- Começo da elaboração do escopo do projeto e registro das ideias iniciais.
+- Estabelecimento do backlog e definição da prioridade das tarefas.
 
 **Fevereiro/2024:** Desenvolvimento do MVP (Menor produto viável)
-- Codificação e validação do MVP com o cliente e adaptação dos documentos de escopo (se necessário)
+- Validação do MVP com o cliente e adaptação dos documentos de escopo (se necessário)
+- Construção do MVP conforme validado com o cliente. 
 
-**Março/2024:** Desenvolvimento do protótipo do aplicativo
-- Desenvolvimento das interfaces do usuário, fluxos da aplicação
-- Desenvolvimento dos micro serviços e bancos de dados
+**Março/2024:** Desenvolvimento do primeiro protótipo do sistema
+- Inicio da construção do primeiro protótipo do sistema
 - Revisão e ajuste do protótipo com feedback da equipe e usuários
 
-**Abril/2024:** Implementação do Painel de Supervisão e Integração
+**Abril/2024:** Desenvolvimento do segundo protótipo do sistema
 - Início da integração com sistemas existentes
 - Testes de integração e ajustes necessários
 
 **Maio/2024:** Testes Finais e Lançamento
-- Testes finais do aplicativo e do sistema integrado
-- Treinamento final dos funcionários e supervisores
-- Lançamento oficial do Sistema de Gestão de Limpeza
+- Testes finais do sistema 
+- Lançamento oficial do Sistema de Automação de Ambientes
 - Monitoramento inicial de feedback e desempenho
 
 **Junho/2024:**
@@ -181,9 +157,8 @@ Como um Palestrante, eu quero poder realizar os meus comandos de voz e a minha c
 Como um Palestrante, eu quero ter a opção de poder utilizar tanto o comando de voz quanto por um aplicativo (quando necessário) que exerça a mesma eficiência.
 - **Critérios de Aceitação:** O aplicativo deve ter a mesma facilidade quanto a própria Alexa.
 
-Como um Palestrante eu quero poder escolher o campo aonde desejo ligar a luz por comando de voz ou app.
-- **Critérios de Aceitação:** O sistema deve reconhecer o comando de voz emitido pelo palestrante para ativar a luz no campo selecionado de forma confiável e precisa.
-Além do reconhecimento por comando de voz, o sistema deve oferecer a opção de controle da iluminação através de um aplicativo móvel dedicado, proporcionando uma alternativa conveniente e acessível para o palestrante.
+Como usuário, eu quero ter uma segurança de dados eficiente.
+- **Critérios de Aceitação:** Autenticação Segura: Implemente um sistema robusto de autenticação para garantir que apenas usuários autorizados possam acessar o sistema de automação.
 
 Como palestrante, eu quero poder ligar as luzes e o ar-condicionado do auditório de forma fácil apenas por um comando de voz ou aplicativo.
 - **Critérios de Aceitação:** os componentes precisam ser automatizados de forma com que eles sejam interligados com a alexia.
