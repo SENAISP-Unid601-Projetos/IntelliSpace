@@ -1,0 +1,220 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:18px;
+    font-family:"Lato", sans-serif;
+    /* define a espessura caracteres pode ser em valor 
+    400 normal 700 bold  */
+    font-weight:normal;
+    /* espaçamento entre as linhas */
+    line-height: 0.8cm;
+    color:#666;
+}
+
+/*menu nav ini*/
+.navbar {
+  width: 100%;
+  background-color:#3a3a3a;
+  opacity:0.7;
+  /* A propriedade overflow especifica se o conteúdo 
+  deve ser recortado ou adicionado barras de rolagem 
+  quando o conteúdo de um elemento for muito grande 
+  para caber na área especificada.
+  auto - Semelhante ao scroll, mas adiciona barras de 
+  rolagem somente quando necessário.
+  */
+  overflow: auto;
+  position: fixed;
+  z-index: 1;
+  /* overflow: hidden; */
+}
+
+.navbar a {
+  float: left;
+  /*text-align: center;*/
+  padding: 12px;
+  color:#fff;
+  /*width: 23%;*/
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+  border-bottom: 2px solid #fff;
+}
+
+.navbar a.dividir {
+  float: right;
+  color:#ffffff;
+}
+/*menu nav fim*/
+
+.primeiraImagem, .segundaImagem, .terceiraImagem, .quartaImagem{
+  /* O elemento é posicionado em 
+  relação à sua posição norma */
+  position:relative;
+  /* opacity:0.70; */
+  background-position:center;
+  /* Especifique o tamanho de uma imagem de fundo
+  Redimensione a imagem de fundo para cobrir 
+  todo o contêiner, mesmo que seja necessário 
+  esticar a imagem */
+  background-size:cover;
+
+  /*define se/como uma imagem de fundo será repetida.*/
+  background-repeat:no-repeat;
+  
+  /*
+    Define se uma imagem de plano de fundo rola com
+    o restante da página ou é fixa.
+      
+    fixed = parallax
+     scroll = normal
+  */
+  background-attachment:fixed;
+}
+  
+.primeiraImagem{
+  background-image:url('../img/original-658daa6f72dd77c981efaff318e4cc33.jpg');
+  min-height:500px;
+}
+  
+.segundaImagem{
+  background-image:url('../img/IoT-como-a-tecnologia-pode-alavancar-o-seu-negocio.png');
+  min-height:460px;
+}
+  
+.terceiraImagem{
+  background-image:url('../img/81-1.jpg');
+  min-height:460px;
+}
+
+  
+.secao2{
+  float: left;
+  text-align:left;
+  clear: both;
+  display: table;
+}
+
+.secao{
+  float: left;
+  text-align:left;
+  margin-left: 30px;
+  margin-right: 30px;
+  clear: both;
+  display: table;
+}
+
+.secao1{
+  clear: both;
+  display: table;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+  
+.secaoClara{
+  background-image: linear-gradient(to top, rgb(67, 67, 223), rgb(0, 0, 0)) ;
+  color:#ffffff;
+  display: flex;
+  width: 100vw;
+}
+  
+.secaoEscura{
+  background-image: linear-gradient(to left, rgb(67, 67, 223), rgb(0, 0, 0));
+  color:#ffffff;
+  display: flex;
+  width: 100vw;
+}
+  
+.texto{
+  /* position:absolute o elemento é posicionado 
+  em relação ao seu primeiro elemento 
+  ancestral posicionado*/
+  position:absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color:#000;
+  font-size:27px;
+  letter-spacing:8px;
+  text-transform:uppercase;
+  opacity:0.70;
+}
+ 
+.rotulo{
+  background-color:#111;
+  color:#ffffff;
+  padding:20px;
+}
+
+#irParaTopo {
+  /* text-decoration: none; */
+  /* font-size: 30px; */
+  padding: 10px;
+  /* font-family: sans-serif; */
+  /* color: #fff;  */
+  /* background: #000; */
+  background: none;
+  float: right;
+  border-radius: 10%; 
+  position: absolute; 
+  bottom: 10px;
+  right: 10px;
+}
+
+#imagemSeta{
+  width: 35px;
+  height: 35px;
+}
+
+@media(max-width:568px){
+  .primeiraImagem, .segundaImagem, .terceiraImagem, .quartaImagem{
+    background-attachment:scroll;
+  }
+
+  .navbar a{
+    float: none;
+    display: block;
+  }
+}
+
+.mensagemRedesSociais{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-size:16px;
+  font-weight: bold;
+  letter-spacing:4px;
+    
+}
+
+footer {
+  background-image: linear-gradient(to bottom, rgb(67, 67, 223), rgb(0, 0, 0)) ;
+  padding: 5px;
+  color: #ffffff;
+  
+}
+.img{
+  height: 100px;
+  width: 100px;
+}
+
+.img2{
+  height: 800px;
+  width: 800px;
+}
+
+.img3{
+  height: 75px;
+  width: 384px;
+  
+   margin-top: 20px;
+  margin-left: 50px; 
+}
+
+/* .qr{
+  background-image:url('../img/QRlogo\ \(1\).png');
+  min-height:460px;
+} */
