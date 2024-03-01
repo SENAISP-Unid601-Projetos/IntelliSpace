@@ -1,0 +1,240 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #93b1de;
+    color: #fcf7f7;
+    margin: 0;
+    /* font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+
+
+header {
+    background-color: #22199f;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+.titulo h1 {
+    font-size: 80px;
+    background: linear-gradient(to right,#fbfeff,#0aa8e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20px 0 15px 0;
+    font-variant: small-caps;
+    padding-left: 450px;
+    
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 45px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107;
+}
+
+.section {
+    padding: 50px 0;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    
+}
+
+.texto {
+    flex: 1;
+    padding: 0 20px;
+    text-align: justify;
+    font-weight: 200;
+
+}
+
+.texto h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #22199f;
+}
+
+
+.texto p {
+    font-size: 30px;
+    line-height: 1.6;
+    color: #fcfbfb;
+
+}
+
+.container img {
+    width: 50%;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    background-color: #fefefe;
+    
+}
+
+.container img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #22199f;
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.logoqr {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: 150px;
+}
+.icone{
+    width: 200px;
+    height: 200px;
+}
+
+.icone2{
+    display: inline-block; /* exibir as imagens em linha */
+   position: relative;
+   left: 200px;
+   top: -200px;
+   height: 200px;
+   width: 200px;
+   
+}
+
+.luz {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 650px;
+    right: 10px;
+    background-color: #fbf6f6; /* Cor padrão da luz (apagada) */
+    border-radius: 50%;
+    transition: background-color 0.3s ease; /* Adiciona transição suave à mudança de cor */
+  }
+
+  
+  
+  .luz.acesa {
+    background-color: yellow; /* Cor da luz acesa */
+
+  }
+
+  .containerAL {
+    position: relative;
+}
+
+@keyframes slideIn {
+    to {
+        left: 0; /* Desliza para a posição inicial */
+    }
+}
+p::selection{
+    background-color: rgb(2, 2, 2);
+}
+
+.imagemSolução{
+    width: 200px;
+    height: 500px;
+}
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    position: relative;
+    flex: 0 0 auto;
+    left: 100;
+    right: 100;
+    margin: 0 37px;
+}
+
+.slide-text {
+    position: relative;
+    bottom: 60px; 
+    left: -70;
+    width: 70px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    color: #ffffff; 
+}
+
+.slide-text:nth-child(2) {
+    bottom: 64px;
+    font-size: 20px; 
+    color: #0ae7e7; 
+}
+
+
+.slide-content {
+    height: 300px; 
+    width: 230px; 
+}
+
+.slide-content img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.slide-content {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide-content::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.slide-text {
+    position: relative;
+    z-index: 1; 
+    color: #fff; 
+}
+.x1{
+    background-color: #93b1de;
+    color: #fff;
+    text-align: center;
+    padding: 2%;
+}
+.texto4{
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fefefe;
+}
+
